@@ -1,0 +1,122 @@
+body {
+	background: black;
+}
+.box {
+	display: flex;
+	flex-direction: column;
+	margin: 10px auto;
+	padding: 100px 5px 100px 5px;
+	width: 50%;
+	border: 2px solid black;
+	border-radius: 50px;
+	box-sizing: border-box;
+	/* justify-items: center; */
+	background: rgb(89, 166, 255);
+}
+
+.top {
+	width: 100%;
+	/* border: 2px solid black; */
+	margin: 5px auto;
+	/* padding: 1px  ; */
+	justify-items: center;
+}
+
+.top svg {
+	display: flex;
+	margin: 10px auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.middle {
+	width: 50%;
+	margin: 5px auto;
+	/* border: 2px solid black; */
+}
+
+.register {
+	font-size: 250%;
+	text-align: center;
+	border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	/* margin: 10px auto; */
+	/* padding: 1% ; */
+}
+.div1,
+.div2,
+.div3 {
+	margin: 10px auto;
+	/* padding:.5%; */
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	width: 90%;
+	padding: 1%;
+}
+
+.div4 {
+	/* display: flex; */
+	/* flex-direction: row; */
+	/* border: 2px solid black; */
+	/* justify-content: space-around; */
+	align-items: center;
+	font-size: 22px;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid black;
+}
+
+.checkbox {
+	margin-left: 15%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	margin: 1.5% auto;
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 22px;
+	border-radius: 5px;
+}
+
+/* input[type="email"] {
+	margin: 1.5% auto;
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 22px;
+	border-radius: 5px;
+} */
+
+.bottom {
+	width: 100%;
+	margin: 5px auto;
+	/* border: 2px solid black; */
+	display: flex;
+	flex-direction: column;
+}
+
+.bottom button,
+.bottom p {
+	margin: 10px auto;
+	display: flex;
+	/* justify-content: center;
+	align-items: center; */
+	font-size: 32px;
+}
+
+.bottom button {
+	border: 2px solid black;
+	background-color: rgb(0, 0, 0);
+	border-radius: 15px;
+	color: white;
+}
+
+.bottom a {
+	text-decoration: none;
+}

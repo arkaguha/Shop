@@ -1,0 +1,66 @@
+body {
+	background: #000;
+}
+
+.add-product-form {
+	width: 50%;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-evenly; */
+	background: #36454f;
+	border: 2px solid grey;
+	padding: 1%;
+	border-radius: 15px;
+	/* gap: 20%; */
+}
+.outer {
+	margin: 2% 2%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.inputs {
+	display: flex;
+	justify-items: space-evenly;
+	flex-direction: column;
+	/* border: 2px solid wheat; */
+	width: 70%;
+}
+.labels {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	color: burlywood;
+	/* background: wheat; */
+	/* border: 2px solid wheat; */
+	/* height: 15vh; */
+}
+.labels label {
+	font-size: 184%;
+	/* line-height: 200%; */
+}
+.inputs input {
+	padding-left: 2%;
+	padding-right: 2%;
+	/* margin: auto; */
+	border-radius: 14px;
+	width: 95%;
+	font-size: 150%;
+	/* border: 2px solid wheat; */
+	/* box-shadow: yellow; */
+}
+.buttons {
+	display: flex;
+	justify-items: space-between;
+	margin: 0.5% 5% 2% 5%;
+}
+
+.buttons button {
+	margin: auto;
+	margin-top: 1%;
+	width: 40%;
+	border-radius: 15px;
+	background: rgb(89, 166, 255);
+	font-size: 175%;
+}
